@@ -1,0 +1,29 @@
+main {
+  background-color: rgb(96, 43, 43);
+  font-size: 20px;
+  color: white;
+
+  .principal {
+    padding: 1.5rem;
+    margin: 2rem;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-style: italic;
+  }
+  p {
+    margin-top: 2rem;
+    padding-left: 1.5rem;
+    color: rgb(30, 26, 26);
+  }
+  .lead {
+    font-style: none;
+    font-size: 22px;
+  }
+  .photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}

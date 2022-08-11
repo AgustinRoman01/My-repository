@@ -1,0 +1,14 @@
+footer {
+  color: rgb(47, 47, 95);
+  display: flex;
+  justify-content: center;
+
+  .card-body {
+    background-color: rgb(168, 76, 76);
+    padding: 1rem;
+    border: 3px solid rgb(82, 23, 23);
+    &:hover {
+      color: black;
+    }
+  }
+}

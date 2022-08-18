@@ -1,20 +1,32 @@
 main {
-  background-color: rgb(96, 43, 43);
+  background-color: #602b2b;
   font-size: 20px;
   color: white;
+}
+main .container-fluid {
+  background-color: beige;
+  padding: 2px;
+  text-align: center;
+  border: solid 4px;
+  background-image: linear-gradient(to top, rgb(18, 9, 9), white);
+  transform: translate(5px, 30px);
+  height: auto;
+  width: auto;
+  transition: all 4s;
 }
 main .principal {
   padding: 1.5rem;
   margin: 2rem;
+  color: red;
 }
 main h1 {
   font-size: 50px;
   font-style: italic;
 }
 main p {
-  margin-top: 2rem;
-  padding-left: 1.5rem;
-  color: rgb(30, 26, 26);
+  padding: 1.5rem;
+  margin: 2rem;
+  color: black;
 }
 main .lead {
   font-style: none;
@@ -25,11 +37,26 @@ main .photo {
   justify-content: center;
   margin-bottom: 2rem;
 }
+main img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+main .pic {
+  display: flex;
+  max-width: 100%;
+  margin-top: 5vh;
+  justify-content: center;
+}
 
 footer {
   color: rgb(47, 47, 95);
   display: flex;
   justify-content: center;
+}
+footer .card {
+  margin-top: 4vh;
+  background-image: linear-gradient(white, rgb(49, 17, 17));
+  transform: translate(10px, 20px);
 }
 footer .card-body {
   background-color: rgb(168, 76, 76);
@@ -38,6 +65,44 @@ footer .card-body {
 }
 footer .card-body:hover {
   color: black;
+}
+
+main .formulario {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 3rem;
+  font-size: 18px;
+}
+main .terminos, main .notificaciones {
+  text-align: left;
+  font-size: 15px;
+}
+.container-fluid .tituloSector display-2 {
+  color: white;
+  margin-left: 0.5rem;
+  margin-top: 2rem;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  transform: translate(600px, -10px);
+  width: auto;
+  height: auto;
+}
+.container-fluid .table table-dark table-striped {
+  margin-top: 2rem;
+  max-width: 70%;
+  border: 4px double white;
+  transform: translate(150px, -15px);
+}
+
+main .imagenPersonas {
+  margin-left: 30%;
+  margin-top: 0.5rem;
+}
+main .nuestraPropuesta {
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,22 @@
 main {
-  background-color: rgb(96, 43, 43);
+  background-color: map-get($colors, color-five);
   font-size: 20px;
   color: white;
 
+  .container-fluid {
+    background-color: beige;
+    padding: 2px;
+    text-align: center;
+    border: solid 4px;
+    background-image: linear-gradient(to top, rgb(18, 9, 9), white);
+    transform: translate(5px, 30px);
+    height: auto;
+    width: auto;
+    transition: all 4s;
+  }
+
   .principal {
-    padding: 1.5rem;
-    margin: 2rem;
+    @include principalP(red);
   }
 
   h1 {
@@ -13,9 +24,7 @@ main {
     font-style: italic;
   }
   p {
-    margin-top: 2rem;
-    padding-left: 1.5rem;
-    color: rgb(30, 26, 26);
+    @include principalP(black);
   }
   .lead {
     font-style: none;
@@ -25,5 +34,15 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+  }
+  img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  .pic {
+    display: flex;
+    max-width: 100%;
+    margin-top: 5vh;
+    justify-content: center;
   }
 }

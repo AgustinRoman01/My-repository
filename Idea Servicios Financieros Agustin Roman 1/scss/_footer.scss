@@ -3,6 +3,12 @@ footer {
   display: flex;
   justify-content: center;
 
+  .card {
+    margin-top: 4vh;
+    background-image: linear-gradient(white, rgb(49, 17, 17));
+    transform: translate(10px, 20px);
+  }
+
   .card-body {
     background-color: rgb(168, 76, 76);
     padding: 1rem;

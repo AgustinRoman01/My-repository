@@ -28,7 +28,7 @@ main p {
   margin: 2rem;
   color: black;
 }
-main .lead {
+main .lead, main .tel {
   font-style: none;
   font-size: 22px;
 }
@@ -67,16 +67,14 @@ footer .card-body:hover {
   color: black;
 }
 
-main .formulario {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  padding: 3rem;
-  font-size: 18px;
+main .lead, main .tel {
+  color: White;
 }
-main .terminos, main .notificaciones {
-  text-align: left;
-  font-size: 15px;
+main .tel {
+  text-align: right;
+  font-size: 20px;
 }
+
 .container-fluid .tituloSector display-2 {
   color: white;
   margin-left: 0.5rem;
@@ -103,6 +101,9 @@ main .imagenPersonas {
 main .nuestraPropuesta {
   font-size: 1.25rem;
   text-align: center;
+}
+main .card-title {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

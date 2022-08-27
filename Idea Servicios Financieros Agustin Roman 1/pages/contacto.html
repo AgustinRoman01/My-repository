@@ -71,42 +71,54 @@
     </header>
     <main>
       <h1 class="titulo">Roman Servicios financieros</h1>
-      <form action="">
-        <fieldset class="formulario">
-          <legend>Formulario para contacto con nosotros</legend>
-          <label for="Nombre">Nombre:</label>
-          <input type="text" name="Nombre" id="Nombre" />
-          <br />
-          <label for="Apellido">Apellido:</label>
-          <input type="text" name="Apellido" id="Apellido" />
-          <br />
-          <br />
-          <label for="Cuil o Cuit"> Cuil o Cuit:</label>
-          <input type="text" name="Cuil o Cuit" id="Cuil o Cuit" />
-          <br />
-          <br />
-          <label for="Email">Email:</label>
-          <input type="text" name="Email" id="Email" />
-          <label for="Télefono"> Teléfono:</label>
-          <input type="text" name="Teléfono" id="Teléfono" />
-          <br />
-          <br />
+      <section class="row col-md-12 col-sm-6 formulario-contacto">
+        <form class="row col-md-6 entradas">
+          <div class="col-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" />
+          </div>
+          <div class="col-6">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" />
+          </div>
+          <div class="col-6">
+            <label for="cuilorcuit" class="form-label">Cuit o Cuil</label>
+            <input type="text" class="form-control" id="cuilorcuit" />
+          </div>
+          <div class="col-6">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="telefono" />
+          </div>
+          <div class="col-12">
+            <label for="emailInput" class="form-label">Email</label>
+            <input type="email" class="form-control" id="emailInput" />
+          </div>
           <div class="terminos">
             <div>Acepta los términos y condiciones</div>
             <input type="checkbox" name="Acepta" value="" />
           </div>
-          <br />
           <div class="notificaciones">
             <div>Acepta recibir notificaciones al email</div>
             <input type="Checkbox" name="Acepta" value="1" />
           </div>
-        </fieldset>
-      </form>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </form>
+        <section class="row col-md-6 text-center col-sm-12 info-general">
+          <div>
+            <h2>Contactanos</h2>
+            <p class="lead text-center">
+              Completá el formulario y nos estaremos comunicando con vos a la
+              brevedad
+            </p>
+            <p class="tel">Por urgencias llamar al 3644632566</p>
+          </div>
+        </section>
+      </section>
     </main>
     <footer class="footer">
       <div class="card">
         <div class="card-body">
-          <h2 class="card-title">Roman Servicios Financieros</h2>
+          <h4 class="card-title">Roman Servicios Financieros</h4>
           <p class="card-text">
             Contactate con nosotros a través del formulario que te dejamos o por
             redes sociales

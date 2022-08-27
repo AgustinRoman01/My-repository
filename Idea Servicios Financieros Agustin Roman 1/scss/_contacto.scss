@@ -1,15 +1,10 @@
 main {
-  .formulario {
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
-    padding: 3rem;
-    font-size: 18px;
+  .lead {
+    color: White;
   }
-  .terminos {
-    text-align: left;
-    font-size: 15px;
-  }
-  .notificaciones {
-    @extend .terminos;
+  .tel {
+    @extend .lead;
+    text-align: right;
+    font-size: 20px;
   }
 }

@@ -33,10 +33,6 @@ main .lead, main .tel {
   font-style: none;
   font-size: 22px;
 }
-main .parrafoIndex {
-  display: flex;
-  justify-content: flex-start;
-}
 main .parrafoDos {
   color: black;
   order: 3;

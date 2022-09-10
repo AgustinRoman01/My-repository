@@ -14,17 +14,14 @@ main .principal {
   width: 100%;
   background-color: #67706a;
 }
-main h1 {
-  font-size: 50px;
-  font-style: italic;
-}
 main p {
   padding: 1.5rem;
   color: black;
 }
-main .parrafoDos {
-  color: black;
-  order: 3;
+@media (max-width: 400px) {
+  main .principal {
+    background-color: azure;
+  }
 }
 
 main .parrafoDos {
@@ -85,9 +82,14 @@ main .container {
   display: flex;
   flex-wrap: wrap;
 }
+main .personas {
+  display: flex;
+  justify-content: center;
+}
 main .card {
   display: flex;
   overflow: hidden;
+  margin: 1rem;
 }
 main .card-text {
   color: aliceblue;

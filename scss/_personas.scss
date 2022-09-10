@@ -7,9 +7,14 @@ main {
     display: flex;
     flex-wrap: wrap;
   }
+  .personas {
+    display: flex;
+    justify-content: center;
+  }
   .card {
     display: flex;
     overflow: hidden;
+    margin: 1rem;
   }
   .card-text {
     color: aliceblue;

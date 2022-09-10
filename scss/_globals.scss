@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-size: 20px;
+  color: white;
+
+  .principal {
+    @include principalP(black);
+    width: 100%;
+    background-color: map-get($colors, color-seven);
+  }
+
+  p {
+    @include principalP(black);
+  }
+
+  @media (max-width: 400px) {
+    .principal {
+      background-color: azure;
+    }
+  }
+}

@@ -7,13 +7,6 @@
 main {
   font-size: 20px;
   color: white;
-  /* background: center/cover no-repeat url(../imagenes/img9.jpg); */
-}
-main .container-fluid {
-  height: auto;
-  width: auto;
-  transition: all 4s;
-  background-color: #67706a;
 }
 main .principal {
   padding: 1.5rem;
@@ -29,10 +22,11 @@ main p {
   padding: 1.5rem;
   color: black;
 }
-main .lead, main .tel {
-  font-style: none;
-  font-size: 22px;
+main .parrafoDos {
+  color: black;
+  order: 3;
 }
+
 main .parrafoDos {
   color: black;
   order: 3;
@@ -56,47 +50,36 @@ footer .card-body:hover {
 }
 
 main .lead, main .tel {
-  color: White;
+  font-style: none;
+  font-size: 22px;
+  color: white;
 }
 main .tel {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-end;
   font-size: 20px;
 }
 
-.container-fluid .tituloSector display-2 {
+main .tituloSector display-2 {
   color: white;
-  margin-top: 2rem;
+  margin-top: 4rem;
   text-decoration: underline;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
-  transform: translate(600px, -10px);
+  transform: translate(400px, -10px);
   width: auto;
   height: auto;
+  font-size: 10vh;
 }
-.container-fluid .table table-dark table-striped {
-  margin-top: 2rem;
-  max-width: 70%;
-  border: 4px double white;
-  transform: translate(150px, -15px);
-}
-.container-fluid .containerA {
+main .containerA {
   display: flex;
 }
 
-main .imagenPersonas {
-  margin-left: 30%;
-  margin-top: 0.5rem;
-}
-main .nuestraPropuesta {
-  font-size: 1.25rem;
-  text-align: center;
-}
 main .card-title {
   color: black;
-  font-size: 25px;
+  font-size: 30px;
 }
 main .container {
   display: flex;
@@ -104,7 +87,6 @@ main .container {
 }
 main .card {
   display: flex;
-  margin: 6rem;
   overflow: hidden;
 }
 main .card-text {

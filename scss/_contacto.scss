@@ -1,11 +1,14 @@
 main {
   .lead {
-    color: White;
+    font-style: none;
+    font-size: 22px;
+    color: white;
   }
+
   .tel {
     @extend .lead;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: flex-end;
     font-size: 20px;
   }
